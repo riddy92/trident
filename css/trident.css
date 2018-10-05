@@ -223,26 +223,26 @@ li{
 }
 
 .about_us_img{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/office.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/office.jpg');
 }
 
 .services_page_img{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/services.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/services.jpg');
 }
 
 .products_page_img{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/gold.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/gold.jpg');
 }
 
 .transport_page_img{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/redship.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/redship.jpg');
 }
 
 
 
 .banner_background{
 	height: 300px;
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/cargo.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/cargo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	
@@ -371,7 +371,7 @@ button:hover{
 }
 
 .service_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/services.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/services.jpg');
 	
 }
 
@@ -390,12 +390,12 @@ button:hover{
 }
 
 .product_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/gold.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/gold.jpg');
 	
 }
 
 .transport_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/redship.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/redship.jpg');
 
 }
 
@@ -528,130 +528,130 @@ label{
 }
 
 .gold{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/goldsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/goldsmall.jpg');
 	background-position: center;
 }
 
 .silver{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/silversmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/silversmall.jpg');
 	background-position: center;
 }
 
 .platinum{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/platinum.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/platinum.jpg');
 	background-position: center;
 }
 
 .copper{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/coppersmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/coppersmall.jpg');
 	background-position: center;
 }
 
 .nickel{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/nickel.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/nickel.jpg');
 	background-position: center;
 }
 
 .tin{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/tinsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/tinsmall.jpg');
 	/*background-position: center;*/
 }
 
 .zinc{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/zincsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/zincsmall.jpg');
 	background-position: center;
 }
 
 .lead{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/lead.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/lead.jpg');
 	background-position: center;
 }
 
 .alum{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/aluminumsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/aluminumsmall.jpg');
 	background-position: center;
 }
 
 .recyc{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/scrapsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/scrapsmall.jpg');
 	background-position: center;
 }
 
 .sugar{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/sugarsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/sugarsmall.jpg');
 	background-position: center;
 }
 
 .veg{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/oilsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/oilsmall.jpg');
 	background-position: center;
 }
 
 .grains_oil{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/soybeanssmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/soybeanssmall.jpg');
 	background-position: center;
 }
 
 .spices{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/spicessmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/spicessmall.jpg');
 	background-position: center;
 }
 
 .gold_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/goldsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/goldsmall.jpg');
 }
 
 .silver_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/silversmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/silversmall.jpg');
 }
 
 .plat_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/platinum.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/platinum.jpg');
 }
 
 .copper_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/coppersmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/coppersmall.jpg');
 }
 
 .nickel_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/nickel.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/nickel.jpg');
 }
 
 .tin_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/tinsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/tinsmall.jpg');
 }
 
 .zinc_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/zincsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/zincsmall.jpg');
 }
 
 .lead_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/lead.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/lead.jpg');
 }
 
 .alum_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/aluminumsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/aluminumsmall.jpg');
 }
 
 .recyc_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/scrapsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/scrapsmall.jpg');
 }
 
 .sugar_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/sugarsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/sugarsmall.jpg');
 	
 }
 
 .veg_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/oilsmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/oilsmall.jpg');
 }
 
 .grains_oil_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/soybeanssmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/soybeanssmall.jpg');
 }
 
 .spices_content_back{
-	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/spicessmall.jpg');
+	background-image: url('https://riddy92.github.io/trident/images/spicessmall.jpg');
 }
 
 .scroll_center{
