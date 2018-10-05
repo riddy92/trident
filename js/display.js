@@ -29,6 +29,7 @@ const spicesProd = document.querySelector('#spices_product');
 const spicesClose = document.querySelector('spices_close');
 
 document.addEventListener('click',displayContent);
+document.addEventListener("touchstart",displayContent);
 
 function displayContent(e){
 	if(e.target.className.includes('gold_click')){
