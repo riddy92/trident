@@ -1,0 +1,925 @@
+
+html{
+	font-size: 1rem;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	margin: 0;
+	color:#253039;
+	display: flex; /* sticky footer */
+	min-height: 100vh; /* sticky footer */
+	flex-direction: column; /* sticky footer */
+
+}
+
+.container{
+	flex: 1; /* sticky footer */
+	max-width: 1440px;
+	align-self: center;
+}
+
+
+
+h1{
+	font-size: 1.5rem;
+}
+
+h2{
+	font-size: 1.3rem;
+	text-align: left;
+}
+
+.dark_overlay > h2{
+	text-align: center;
+}
+
+h4{
+	margin: 0;
+	color: gainsboro;
+	font-size: 1rem;
+	text-align: center;
+}
+
+
+header{
+	background-color: #253039;
+	display: flex;
+	justify-content: center;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+
+
+li{
+	text-decoration: none;
+}
+
+
+.header_container{
+	
+}
+
+.navbar{
+	display: flex;
+	align-items: center;
+	height: 7vh;
+	justify-content: space-around;
+}
+
+.nav_brand_wrapper{
+	width: 25%;
+}
+
+.nav_brand{
+	width: 100%;
+}
+
+
+.nav_button_wrapper{
+	height: 30px;
+	width: 50px;
+	background-color: gainsboro;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: transparent;
+	transition: 0.5s;
+}
+
+.hamburger:before{
+	height: 3px;
+	width: 30px;
+	background-color: gainsboro;
+	margin-bottom: 5px; 
+	content: ' ';
+	transition: 0.5s;
+}
+
+.hamburger:after{
+	height: 3px;
+	width: 30px;
+	background-color: gainsboro;
+	margin-top: 5px;
+	content: ' ';
+	transition: 0.5s;
+}
+
+
+
+.closedx:before{
+	height: 3px;
+	width: 30px;
+	background-color: gainsboro; 
+	content: ' ';
+	transform: rotate(135deg);
+	transition: 0.5s;
+}
+
+.closedx:after{
+	height: 3px;
+	width: 30px;
+	background-color: gainsboro;
+	content: ' ';
+	transform: rotate(-135deg);
+	transition: 0.5s;
+}
+
+
+.rotate{
+	position: absolute;
+	height: 40px;
+	width: 30px;
+	top:10px;
+	left: 20px;
+	background-color: transparent;
+	display: flex;
+	align-items: center;
+
+}
+
+.rotate::before{
+	transform: rotate(45deg);
+	position: absolute;
+	height: 2px;
+	width: 30px;
+	background-color: gainsboro;
+	
+	content:' ';
+	
+}
+
+.rotate::after{
+	transform: rotate(-45deg);
+	position: absolute;
+	height: 2px;
+	width: 30px;
+	background-color: gainsboro;
+	
+	content:' ';
+}
+
+
+#nav_menu{
+	display: none;
+	position: absolute;
+	background-color: #253039;
+	width: 100%;
+	justify-content: center;
+	overflow-y: hidden;
+	z-index: 1000;
+}
+.flex_menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px 0 20px 0;
+}
+
+.nav_link{
+	text-decoration: none;
+	margin: 10px 0 0 0;
+	color: gainsboro;
+	font-size: 1.5rem;
+}
+
+.page_banner{
+	background-color: transparent;
+	text-align: center;
+	color: gainsboro;
+}
+
+.page_banner h1{
+	font-size: 2rem;
+}
+
+.page_banner_img{
+	height: 200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+
+}
+
+.dark_overlay{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about_us_img{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/office.jpg');
+}
+
+.services_page_img{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/services.jpg');
+}
+
+.products_page_img{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/gold.jpg');
+}
+
+.transport_page_img{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/redship.jpg');
+}
+
+
+
+.banner_background{
+	height: 300px;
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/cargo.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+
+.banner_sec_flex{
+	display: flex;
+	
+	flex-direction: column;
+	align-items:center; 
+	margin: -100px 0 0 0;
+	
+
+}
+
+.page_sec_flex{
+	margin: -40px 0 0 0;
+}
+
+.banner_message{
+	width: 85%;
+	background-color: #CF856A;
+	padding: 40px 15px;
+	box-shadow: 0 5px 10px;
+	font-weight: 700;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.banner_message p{
+	margin-top: 0;
+	margin-bottom: 30px;
+
+}
+
+.banner_message > ul{
+	margin: 0 0 30px 0;
+}
+
+.content_link{
+	padding: 9px 20px;
+	background-color: #253039;
+	color: gainsboro;
+	border:none;
+	align-self: start;
+}
+
+.content_link:focus,.content_link:hover{
+	background-color: gainsboro;
+	color: #253039;
+	outline: #253039;
+	outline-width: 3px;
+	outline-style: solid;
+	margin: 5px;
+
+}
+
+button{
+
+	padding: 9px 20px;
+	background-color: #253039;
+	color: gainsboro;
+	border:none;
+	margin: 5px;
+
+}
+
+button:focus{
+	padding: 9px 20px;
+	background-color: gainsboro;
+	color: #253039;
+	outline: #253039;
+	outline-width: 3px;
+	outline-style: solid;
+	margin: 5px;
+}
+
+button:hover{
+	padding: 9px 20px;
+	background-color: gainsboro;
+	color: #253039;
+	outline: #253039;
+	outline-width: 3px;
+	outline-style: solid;
+	margin: 5px;
+}
+
+.flex_wrapper{
+	background-color: #253039;
+	
+}
+
+.flex_wrapper h1{
+	margin-top: 0;
+	color: gainsboro;
+}
+
+.our_way{
+	color: gainsboro;
+	padding: 40px 15px;
+}
+
+.services_wrapper{
+
+}
+
+.products_wrapper{
+	
+}
+
+.transport_wrapper{
+
+}
+
+.sub_sec_img{
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	background-position: center;
+}
+
+.service_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/services.jpg');
+	
+}
+
+.service_intro{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(250,250, 250, 0.9);
+	width: 85%;
+	padding: 40px 15px;
+	box-shadow: 0 5px 10px;
+	font-weight: 700;
+}
+
+.service_intro h2{
+	margin-top: 0;
+}
+
+.product_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/gold.jpg');
+	
+}
+
+.transport_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/redship.jpg');
+
+}
+
+.contact_us_wrapper{
+	padding: 40px 15px;
+}
+
+.contact_us_form{
+	display: flex;
+	flex-direction: column;
+}
+.form_group{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+label{
+	margin-bottom: 5px;
+}
+
+.input_field{
+	padding: 12px;
+	border-width: 1px;
+	border-color: #253039;
+	color: #253039;
+	font-size: 1rem;
+}
+
+.form_submit{
+	padding: 9px 20px;
+	background-color: #253039;
+	color: gainsboro;
+	border:none;
+	font-size: 1rem;
+	align-self: start;
+}
+
+.form_submit:focus,.form_submit:hover{
+	outline: #253039;
+	outline-width: 3px;
+	outline-style: solid;
+	background-color: gainsboro;
+	color: #253039;
+}
+
+
+#message{
+	height: 200px;
+	border-width: 1px;
+	border-color: #253039;
+	padding: 12px;
+	font-size: 1rem;
+}
+
+#message:focus{
+	outline: #253039;
+	outline-width: 3px;
+	outline-style: solid;
+}
+
+.grid{
+	margin-bottom: 20px;
+}
+
+
+.grid-item{
+	width: 30%;
+	margin: 2.5px;
+	height: 100px; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid-item:hover{
+	opacity: .8;
+}
+
+.link_row{
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+
+.precious_metal_text_flex{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+.base_metal_text_flex{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+}
+
+.precious_metal_text{
+	width: 95%;
+}
+
+.base_metal_text{
+	width: 95%;
+}
+
+.precious_metal_text > :first-child{
+	margin-top: 0;
+}
+
+.base_metal_text > :first-child{
+	margin-top: 0;
+}
+
+
+.title_flex{
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title_back{
+	background-color:#253039;;
+	padding: 5px 10px;
+
+
+}
+
+.gold{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/goldsmall.jpg');
+	background-position: center;
+}
+
+.silver{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/silversmall.jpg');
+	background-position: center;
+}
+
+.platinum{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/platinum.jpg');
+	background-position: center;
+}
+
+.copper{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/coppersmall.jpg');
+	background-position: center;
+}
+
+.nickel{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/nickel.jpg');
+	background-position: center;
+}
+
+.tin{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/tinsmall.jpg');
+	/*background-position: center;*/
+}
+
+.zinc{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/zincsmall.jpg');
+	background-position: center;
+}
+
+.lead{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/lead.jpg');
+	background-position: center;
+}
+
+.alum{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/aluminumsmall.jpg');
+	background-position: center;
+}
+
+.recyc{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/scrapsmall.jpg');
+	background-position: center;
+}
+
+.sugar{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/sugarsmall.jpg');
+	background-position: center;
+}
+
+.veg{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/oilsmall.jpg');
+	background-position: center;
+}
+
+.grains_oil{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/soybeanssmall.jpg');
+	background-position: center;
+}
+
+.spices{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/spicessmall.jpg');
+	background-position: center;
+}
+
+.gold_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/goldsmall.jpg');
+}
+
+.silver_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/silversmall.jpg');
+}
+
+.plat_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/platinum.jpg');
+}
+
+.copper_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/coppersmall.jpg');
+}
+
+.nickel_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/nickel.jpg');
+}
+
+.tin_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/tinsmall.jpg');
+}
+
+.zinc_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/zincsmall.jpg');
+}
+
+.lead_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/lead.jpg');
+}
+
+.alum_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/aluminumsmall.jpg');
+}
+
+.recyc_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/scrapsmall.jpg');
+}
+
+.sugar_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/sugarsmall.jpg');
+	
+}
+
+.veg_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/oilsmall.jpg');
+}
+
+.grains_oil_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/soybeanssmall.jpg');
+}
+
+.spices_content_back{
+	background-image: url('file:///Users/ridwanhuthman/Desktop/trident/images/spicessmall.jpg');
+}
+
+.scroll_center{
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	position: fixed;
+	bottom: 10%;
+}
+
+.scroll_content{
+	position: relative;
+	width: 95%;
+	background-color: #CF856A;
+	
+	box-shadow: 0 5px 10px;
+	font-weight: 700;
+}
+
+.scroll_content_msg{
+	padding: 40px 15px;
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+.scroll_content_back{
+	
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: gainsboro;
+}
+
+span{
+	font-size:1.1rem;
+}
+
+.content_li{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+#to_top {
+	background-color: #253039;
+	opacity: .5;
+	padding: 9px 15px;
+	text-decoration: none;
+	color: white;
+	position: fixed;
+	right:10px;
+	bottom:10px;
+	z-index: 4;
+}
+
+#to_top:hover{
+	background-color: #003949;
+
+}
+
+.footer_wrap{
+	display: flex;
+	flex-direction: column;
+	background-color: #253039;
+	color: gainsboro;
+	align-items: center;
+}
+
+.footer_links_wrap{
+	padding-top: 50px;
+}
+
+.footer_menu_list{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer_link{
+	color: gainsboro;
+	
+}
+
+.button-group{
+	padding: 40px 0;
+}
+
+
+.border{
+	width: 30px;
+	height: 3px;
+	background-color: gainsboro;
+	align-self: center;
+	margin-bottom: 10px;
+}
+
+.current{
+	color: #CF856A;
+}
+
+.border_current{
+	background-color: #CF856A;
+}
+
+.social_links_wrap{
+	padding: 30px 0;
+}
+
+i{
+	margin: 0 10px;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	background-color: #253039;
+}
+
+.footer_container{
+	max-width: 1200px;
+}
+
+.footer_message_wrap{
+	font-size: .85rem;
+	width: 95%;
+	margin: 0 0 30px 0;
+}
+
+.footer_message_wrap p{
+	margin: 10px 0 0 0;
+
+}
+
+
+.copyright_wrap{
+	display: flex;
+	margin:auto auto 5px auto;
+	font-size: .75rem;
+
+}
+
+.horizontal_nav{
+		display: none;
+
+}
+
+
+@media (min-width: 600px){
+
+	.navbar{
+		height: 10vh;
+	}
+
+	#nav_button{
+		display: none;
+	}
+
+	.nav_link{
+		font-size: 1rem;
+	}
+
+	.horizontal_nav{
+		display: block;
+
+	}
+
+	.horizontal_nav_flex{
+		display: flex;
+
+	}
+
+	.vert_flex_group{
+		display: flex;
+		flex-direction: column;
+		margin: 0 7px;
+	}
+
+	.nav_brand_wrapper{
+		width: 15%;
+	}
+	.page_banner_img{
+		height: 300px;
+	}
+
+
+	.horizontal_foot_flex{
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
+	.scroll_center{
+		bottom: 20%;
+	}
+
+	button{
+		font-size: 1rem;
+	}
+
+	.grid-item{
+		height: 200px;
+	}
+}
+
+@media (min-width: 992px){
+	.nav_link{
+		font-size: 1.5rem;
+	}
+
+	.vert_flex_group{
+		margin: 0 10px;
+	}
+
+	
+
+	.flex_two{
+		display: flex;
+	}
+
+	.flex_two section{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+	}
+
+
+	.sub_sec_wrapper{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.our_way{
+		padding: 40px 0;
+		width: 85%;
+	}
+
+	.sub_sec_img{
+		width: 100%;
+		height: 100%;
+	}
+
+	#contact_sec{
+		display: flex;
+		justify-content: center;
+	}
+
+	.contact_us_wrapper{
+		width: 60%;
+	}
+
+	.scroll_center{
+		bottom: 30%;
+	}
+
+	.precious_metal_text{
+		width: 65%;
+	}
+
+
+
+}
+
+
+
