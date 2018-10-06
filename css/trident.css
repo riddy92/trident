@@ -674,7 +674,7 @@ label{
 
 .scroll_content_msg{
 	padding: 40px 15px;
-	max-height: 400px;
+	max-height: 300px;
 	overflow-y: scroll;
 }
 
