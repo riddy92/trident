@@ -179,6 +179,7 @@ li{
 	justify-content: center;
 	overflow-y: hidden;
 	z-index: 1000;
+	left: 0;
 }
 .flex_menu{
 	display: flex;
@@ -849,7 +850,15 @@ footer{
 	}
 
 	.scroll_center{
-		bottom: 20%;
+		bottom: 10vh;
+	}
+
+	.scroll_content{
+		width: 85%;
+	}
+
+	.scroll_content_msg{
+		max-height: 500px;
 	}
 
 	button{
@@ -859,6 +868,8 @@ footer{
 	.grid-item{
 		height: 200px;
 	}
+
+
 }
 
 @media (min-width: 992px){
@@ -910,10 +921,14 @@ footer{
 	}
 
 	.scroll_center{
-		bottom: 30%;
+		bottom: 10vh;
 	}
 
-	.precious_metal_text{
+	.scroll_content{
+		width: 75%;
+	}
+
+	.precious_metal_text, .base_metal_text{
 		width: 65%;
 	}
 

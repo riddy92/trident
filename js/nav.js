@@ -12,7 +12,7 @@ function showNav(){
 	if (navMenu.className === "closed"){
 		navMenu.style.display = 'flex';		
 		navMenu.className = "open";
-		navButton.className = "nav_button_wrapper closedx";
+		navButton.className = "nav_button_wrapper closedx";	
 	 }else{
 	 	navMenu.style.display = 'none';
 	 	navMenu.className = "closed";
